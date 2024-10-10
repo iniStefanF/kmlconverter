@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+geopandas = "*"
+matplotlib = "*"
+pyzipper = "*"
+shapely = "*"
+fiona = "*"
+streamlit = "*"
+contextily = "*"
+rasterio = "*"
+mercantile = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
